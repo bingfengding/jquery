@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>extend/title>
+	<style>
+		body{
+			height:1000px;
+		}
+		div.b{
+			width: 300px;
+		}
+		.blue{
+			color:blue;
+		}
+		.big{
+			font-size: 40px;
+		}
+		/*body{
+			-webkit-user-select:none;
+			-moz-user-select:none;
+			-ms-user-select:none;
+			user-select:none;
+		}*/
+		p::selection{
+			background-color: transparent;
+			color: green;
+			/*只有2个属性可以调节*/
+		}
+	</style>
+</head>
+<body>
+<input type="text" id="myInput">
+<a href=""></a>
+<ul>
+	<li class="l a" id="a"><span>a</span></li>
+	<li class="l b">b</li>
+	<li class="l c">b</li>
+	<li class="l d">c</li>
+	<li class="l e">d</li>
+	<li class="l f">e</li>
+	<li class="l g">f</li>
+</ul>
+<div class="b"></div>
+<p class="c">哈哈哈哈</p>
+
+<form>
+	<button></button>
+	<input type="button">
+	<input readonly="readonly" value="233"/>
+	<select name="" id="">
+		<option>1</option>
+		<option selected="selected">2</option>
+		<option>3</option>
+		<option>4</option>
+	</select>
+</form>
+
+<script src="../lib/jQuery@1.12.4.min.js"></script>
+<script src="./js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<style>
+		/*body{
+			-webkit-user-select:none;
+			-moz-user-select:none;
+			-ms-user-select:none;
+			user-select:none;
+		}*/
+		p::selection{
+			background-color: transparent;
+			color: green;
+			/*只有2个属性可以调节*/
+		}
+	</style>
+</head>
+<body>
+<input type="button" class="ipt" value="点击发送验证码">
+<script src="../lib/jQuery@1.12.4.min.js"></script>
+<script src="./js/demo.js"></script>
+
+</body>
+
+</html>
